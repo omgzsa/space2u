@@ -2,10 +2,10 @@
   <div class="app" :class="isDark === true ? 'dark-theme' : 'light-theme'">
     <header class="header mb-4 animate fadeDown delay-1">
       <div class="mb-2">
-        <h1 class="font-bolder uppercase">
-          space<span class="font-bolder uppercase title-span">2u</span>
+        <h1 class="font-bold uppercase">
+          space<span class="font-bold uppercase title-span">2u</span>
         </h1>
-        <h2 class="font-bolder">Space Építész Iroda Kft.</h2>
+        <h2 class="font-bold">Space Építész Iroda Kft.</h2>
       </div>
       <TheContact :address="address" :email="email" :maps-link="mapsLink" />
     </header>
