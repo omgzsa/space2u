@@ -15,7 +15,7 @@
       <span class="font-bold uppercase red-soft">hamarosan ...</span>
     </main>
 
-    <footer class="footer mb-2 d-flex animate fadeUp delay-5">
+    <footer class="footer mb-2 d-flex animate fadeDown delay-5">
       <p class="mb-1 font-bold mr-2 caption">
         &#169;{{ new Date().getFullYear() }} — SPACE2U
       </p>
@@ -24,7 +24,11 @@
         fenntartva.
       </p>
     </footer>
-    <ModeToggle :isDark="isDark" @toggle="toggle" />
+    <ModeToggle
+      class="animate fadeDown delay-3"
+      :isDark="isDark"
+      @toggle="toggle"
+    />
   </div>
 </template>
 
