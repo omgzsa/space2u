@@ -11,13 +11,29 @@
     </header>
 
     <main class="main mb-4 animate fadeLeft delay-3">
-      <TheContent :content="content" />
+      <TheContent>
+        <p class="font-thin grey-light mb-1">
+          <span class="font-bold">SPACE</span> [speis] I.n, 1: a) hely, tér,
+          térköz, közbenső tér, köz; ~ időbeli és térbeli feltételek /
+          viszonyok; b) kiterjedés, terjedelem, terület; c) világűr, űr, a
+          végtelen űr; d) (menny, fiz) tér; n~n dimenziós tér, ~axes térbeli
+          koordinátarendszerek, 2: időszak, időköz, ~ lélegzetvételnyi idő, 3:
+          szabad terület/tér, távolság, táv, térköz; folyosó; open ~ térség, ~
+          saving takarékoskodás hellyel, helymegtakarítás; ~ tárgyak közötti
+          távolság; leave ~ for… helyet hagy vmnek, 4: a) betűköz, szóköz; II.
+          vt, 1: ~(out) (i) elhelyez, elrendez, felállít; (ii) eloszt, feloszt,
+          szétoszt; tágít. A dolgok közötti láthatatlan kapcsolat.
+          <span class="font-bold">2U</span> [tu: ju:] számodra, az igényeidre
+          szabva, személyesen neked.
+        </p>
+      </TheContent>
       <span class="font-bold uppercase red-soft">hamarosan ...</span>
     </main>
 
     <footer class="footer mb-2 d-flex animate fadeDown delay-5">
       <p class="mb-1 font-bold mr-2 caption">
-        &#169;{{ new Date().getFullYear() }} — SPACE2U
+        <!-- &#169;{{ new Date().getFullYear() }} — SPACE2U -->
+        &#169; 2020 — SPACE2U
       </p>
       <p class="mb-1 caption grey-light">
         A weboldal teljes tartalma szerzői jogvédelem alatt áll. Minden jog
@@ -46,10 +62,10 @@ export default {
   data() {
     return {
       isDark: false,
-      address: '9022 Győr, Sarló köz 15. 2/5',
+      address: '9021 Győr, Sarló köz 15. 2/5',
       email: 'hello@space2u.hu',
-      content:
-        'SPACE [speis] I.n, 1: a) hely, tér, térköz, közbenső tér, köz; ~ időbeli és térbeli feltételek / viszonyok; b) kiterjedés, terjedelem, terület; c) világűr, űr, a végtelen űr; d) (menny, fiz) tér; n~n dimenziós tér, ~axes térbeli koordinátarendszerek, 2: időszak, időköz, ~ lélegzetvételnyi idő, 3: szabad terület/tér, távolság, táv, térköz; folyosó; open ~ térség, ~ saving takarékoskodás hellyel, helymegtakarítás; ~ tárgyak közötti távolság; leave ~ for… helyet hagy vmnek, 4: a) betűköz, szóköz; II. vt, 1: ~(out) (i) elhelyez, elrendez, felállít; (ii) eloszt, feloszt, szétoszt; tágít. A dolgok közötti láthatatlan kapcsolat.',
+      // content:
+      //   'SPACE [speis] I.n, 1: a) hely, tér, térköz, közbenső tér, köz; ~ időbeli és térbeli feltételek / viszonyok; b) kiterjedés, terjedelem, terület; c) világűr, űr, a végtelen űr; d) (menny, fiz) tér; n~n dimenziós tér, ~axes térbeli koordinátarendszerek, 2: időszak, időköz, ~ lélegzetvételnyi idő, 3: szabad terület/tér, távolság, táv, térköz; folyosó; open ~ térség, ~ saving takarékoskodás hellyel, helymegtakarítás; ~ tárgyak közötti távolság; leave ~ for… helyet hagy vmnek, 4: a) betűköz, szóköz; II. vt, 1: ~(out) (i) elhelyez, elrendez, felállít; (ii) eloszt, feloszt, szétoszt; tágít. A dolgok közötti láthatatlan kapcsolat. 2U [tu: ju:] számodra, az igényeidre szabva, személyesen neked.',
       mapsLink: 'https://goo.gl/maps/PbvLZxVpEvuLseiV6',
     };
   },
